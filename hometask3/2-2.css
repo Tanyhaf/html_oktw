@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+    height: 1000px;
+    font-size: 50px;
+
+}
+.text{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.widgets{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+
+
+}
+.widget{
+    background: #00398f;
+    flex-grow: 1;
+
+
+}
+#header{
+    background: #4a94ff;
+    flex-grow: 1;
+}
+#contact{
+    background: #4a94ff;
+    flex-grow: 2;
+}

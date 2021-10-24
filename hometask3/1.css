@@ -1,0 +1,33 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.box{
+    border: 5px solid #b5b7c4;
+    background: #dcdada;
+    display: flex;
+    font-size: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+.ab{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    column-gap: 10px;
+
+}
+.a{
+    height: 300px;
+
+}
+.b{
+    flex-grow: 4;
+
+}
+.c{
+    flex-grow: 1;
+}
