@@ -1,0 +1,46 @@
+.column_gap{
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.d_flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.d_flex_row{
+    display: flex;
+    flex-direction: row;
+}
+.h600{
+    height: 600px;
+}
+.bg_blue{
+    background:#86abe0 ;
+}
+.bg_purple{
+    background: #f843f8;
+}
+.bg_yellow{
+    background: #fffda3;
+}
+.bd_green{
+    background: #d8ffa3;
+}
+.border{
+    border: 2px solid black;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.f_g1{
+    flex-grow: 1;
+}
+.f_g4{
+    flex-grow: 4;
+}
+.f_g2{
+    flex-grow: 2;
+}

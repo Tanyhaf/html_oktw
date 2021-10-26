@@ -1,0 +1,42 @@
+.text{
+    display: flex;
+    font-size: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.bg_blue{
+    background: #005fe8;
+}
+.bg_darkblue{
+    background: #00398f;
+}
+.bg_purple{
+    background: #9958ff;
+}
+.bg_sea{
+    background:#4a94ff;
+}
+.d_flex_row{
+    display: flex;
+    flex-direction: row;
+}
+.d_flex_column{
+    display: flex;
+    flex-direction: column;
+}
+.h100{
+    height: 100px;
+}
+.h150{
+    height: 150px;
+}
+.h600{
+    height: 600px;
+}
+.f_g1{
+    flex-grow: 1;
+}
+.f_g3{
+    flex-grow: 3;
+}
